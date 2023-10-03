@@ -1,0 +1,195 @@
+@font-face{
+    font-family: 'Mazda Type';
+    src: url('../fonts/MazdaType-Regular.eot');
+    src: url('../fonts/MazdaType-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MazdaType-Regular.woff2') format('woff2'),
+        url('../fonts/MazdaType-Regular.woff') format('woff'),
+        url('../fonts/MazdaType-Regular.ttf') format('truetype'),
+        url('../fonts/MazdaType-Regular.svg#MazdaType-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Mazda Type';
+    src: url('../fonts/MazdaType-Medium.eot');
+    src: url('../fonts/MazdaType-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MazdaType-Medium.woff2') format('woff2'),
+        url('../fonts/MazdaType-Medium.woff') format('woff'),
+        url('../fonts/MazdaType-Medium.ttf') format('truetype'),
+        url('../fonts/MazdaType-Medium.svg#MazdaType-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mazda Type';
+    src: url('../fonts/MazdaType-Italic.eot');
+    src: url('../fonts/MazdaType-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MazdaType-Italic.woff2') format('woff2'),
+        url('../fonts/MazdaType-Italic.woff') format('woff'),
+        url('../fonts/MazdaType-Italic.ttf') format('truetype'),
+        url('../fonts/MazdaType-Italic.svg#MazdaType-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mazda Type';
+    src: url('../fonts/MazdaType-Bold.eot');
+    src: url('../fonts/MazdaType-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MazdaType-Bold.woff2') format('woff2'),
+        url('../fonts/MazdaType-Bold.woff') format('woff'),
+        url('../fonts/MazdaType-Bold.ttf') format('truetype'),
+        url('../fonts/MazdaType-Bold.svg#MazdaType-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+.layout {
+    width: 100%;
+    height: 60px;
+    background: #FFFFFF;
+    box-shadow: -1.04px 6px 9px #00000012;
+    opacity: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sidebar {
+    margin: 20px;
+}
+
+.layout .fa-bars:before {
+    font-size: 24px;
+    color: #999999;
+
+}
+
+.layout-description {
+    display: flex;
+    gap: 20px;
+}
+
+.filter-icon {
+    margin-top: 3px;
+}
+
+.layout-description .material-symbols-outlined {
+    font-size: 27px;
+}
+
+.description-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.button-caption {
+    letter-spacing: 0.33px;
+    color: #2B2B2B;
+    opacity: 1;
+    font-size: 11px;
+    margin-bottom: 4px;
+}
+
+.button-container {
+    background: #2B2B2B 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    opacity: 1;
+}
+
+.button-item {
+    letter-spacing: 0.45px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-size: 15px;
+}
+
+.button-container1 {
+    margin-top: 18px;
+}
+
+.button1 {
+    background: #2B2B2B 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    opacity: 1;
+    width: 58px;
+}
+
+.button-item1 {
+    letter-spacing: 0.45px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.description-para {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18px;
+}
+
+.description-para span {
+    letter-spacing: 0.45px;
+    color: #101010;
+    opacity: 1;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.separator-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18px;
+}
+.description-para1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18px;
+}
+
+.description-para1 span {
+    letter-spacing: 0.45px;
+    color: #101010;
+    opacity: 1;
+}
+
+.description-column1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.button-caption1 {
+    letter-spacing: 0.33px;
+    color: #2B2B2B;
+    opacity: 1;
+    font-size: 11px;
+    margin-bottom: 4px;
+}
+
+.description-column1 button {
+    background: #141414 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    opacity: 1;
+}
+
+.button-item1 {
+    letter-spacing: 0.45px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-size: 15px;
+}
+
+.excel-icon {
+    margin: 17px;
+}
+
+.fa-file-excel {
+    font-size: 29px;
+    color: #999999;
+}

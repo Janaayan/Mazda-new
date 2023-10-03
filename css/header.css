@@ -1,0 +1,181 @@
+@font-face{
+    font-family: 'Mazda Type';
+    src: url('../fonts/MazdaType-Regular.eot');
+    src: url('../fonts/MazdaType-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MazdaType-Regular.woff2') format('woff2'),
+        url('../fonts/MazdaType-Regular.woff') format('woff'),
+        url('../fonts/MazdaType-Regular.ttf') format('truetype'),
+        url('../fonts/MazdaType-Regular.svg#MazdaType-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Mazda Type';
+    src: url('../fonts/MazdaType-Medium.eot');
+    src: url('../fonts/MazdaType-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MazdaType-Medium.woff2') format('woff2'),
+        url('../fonts/MazdaType-Medium.woff') format('woff'),
+        url('../fonts/MazdaType-Medium.ttf') format('truetype'),
+        url('../fonts/MazdaType-Medium.svg#MazdaType-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mazda Type';
+    src: url('../fonts/MazdaType-Italic.eot');
+    src: url('../fonts/MazdaType-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MazdaType-Italic.woff2') format('woff2'),
+        url('../fonts/MazdaType-Italic.woff') format('woff'),
+        url('../fonts/MazdaType-Italic.ttf') format('truetype'),
+        url('../fonts/MazdaType-Italic.svg#MazdaType-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mazda Type';
+    src: url('../fonts/MazdaType-Bold.eot');
+    src: url('../fonts/MazdaType-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MazdaType-Bold.woff2') format('woff2'),
+        url('../fonts/MazdaType-Bold.woff') format('woff'),
+        url('../fonts/MazdaType-Bold.ttf') format('truetype'),
+        url('../fonts/MazdaType-Bold.svg#MazdaType-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+.head {
+    width: 100%;
+    height: auto;
+    background: #2B2B2B;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head-row {
+    display: flex;
+    gap: 100px;
+}
+
+.head-row1 {
+    display: flex;
+    gap: 50px;
+    position: relative;
+}
+
+.logo {
+    display: flex;
+    margin-top: auto;
+    padding: 22px;
+    width: 59px;
+    height: auto;
+    background: transparent url('img/logo.png');
+    opacity: 1;
+}
+
+.heading {
+    text-align: left;
+    font-size: 28px;
+    line-height: 39px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon-child1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 7px;
+
+}
+.fa-link:before {
+    color: #999999;
+    opacity: 1;
+    font-size: 22px;
+}
+
+.icon-child1 p {
+    font-size:13px ;
+    line-height:15px ;
+    letter-spacing: 0px;
+    color: #999999;
+    opacity: 1;
+}
+
+.separator1 {
+    height: 43px;
+    margin-top: 2px;
+    border: 1px solid #484848;
+}
+
+.icon-child2 {
+    position: relative;
+
+}
+
+.icon-child2 .material-symbols-outlined {
+    color: #999999;
+    opacity: 1;
+    font-size: 33px;
+}
+
+.icon-child2 p {
+    margin: 0px;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0px;
+    color: #999999;
+    opacity: 1;
+}
+
+.separator2 {
+    border: 1px solid #484848;
+    height: 43px;
+    margin-top: 19px;
+    position: absolute;
+    right: 177px;
+}
+
+.symbol {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 20px;
+}
+
+.persons-symbol {
+    height: 33px;
+    padding: 5px;
+    font-size: 28px;
+    line-height: 39px;
+    color: #D5D5D5;
+    opacity: 0.8;
+}
+
+.persons-symbol .material-symbols-outlined {
+    font-size: 33px;
+}
+
+.symbol p {
+    margin: auto;
+    color: #D5D5D5;
+    opacity: 0.8;
+}
